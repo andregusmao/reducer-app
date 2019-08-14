@@ -6,8 +6,14 @@ import StatePage from "./pages/StatePage";
 export default function App() {
   return (
     <>
-      <ReducerPage />
-      <StatePage />
+      <div>
+        <h4>useReducer()</h4>
+        <ReducerPage />
+      </div>
+      <div>
+        <h4>useState()</h4>
+        <StatePage />
+      </div>
     </>
   );
-};
+}
